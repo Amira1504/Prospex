@@ -85,3 +85,28 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+/*Donate Widget CSS*/
+
+.donate-widget  {
+  position:fixed;
+  top: calc(50% - 1.75rem);
+  right:0;
+  z-index: 10;
+}
+
+.donate-widget a {
+  text-decoration: none;
+  right:0;
+  color: white;
+  font-size: 0.7rem;
+  line-height: 0.5;
+  padding:0.6rem;
+  background:#000000;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.donate-widget a:hover {
+  text-decoration: none;
+  background: rgba(50,50,50,0.7);
+}
