@@ -6,10 +6,10 @@ contact_entries:
     text: '3153 Lynn Avenue, South San Francisco, California 94080'
   - heading: Working hours
     text: |-
-      Mon, Tues & Thurs: 9AM – 7PM.
-      Wednesday: 9AM – 5:30PM.                 
-      Friday: 9AM – 7:30PM.
-      We’re closed on Saturdays and Sundays.
+      <p>Mon, Tues & Thurs: 9AM – 7PM.</p>
+      <p> Wednesday: 9AM – 5:30PM.   </p>              
+      <p>Friday: 9AM – 7:30PM.</p>
+      <p>We’re closed on Saturdays and Sundays.</p>
 ---
 
 We’d love to get in touch with you and hear your ideas and
