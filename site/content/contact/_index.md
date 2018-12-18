@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Contact"
 logo: "/img/prospex.png"
 contact_entries:
@@ -11,6 +12,19 @@ contact_entries:
     text3: "Friday: 9AM – 7:30PM."
     text4: "We’re closed on Saturdays and Sundays."
 
+=======
+title: Contact
+logo: /img/logo.svg
+contact_entries:
+  - heading: Location
+    text: '3153 Lynn Avenue, South San Francisco, California 94080'
+  - heading: Working hours
+    text: |-
+      <p>Mon, Tues & Thurs: 9AM – 7PM.</p>
+      <p> Wednesday: 9AM – 5:30PM.   </p>              
+      <p>Friday: 9AM – 7:30PM.</p>
+      <p>We’re closed on Saturdays and Sundays.</p>
+>>>>>>> c3c48752881bef02bcaa98a734d88e89cd1b0402
 ---
 
 We’d love to get in touch with you and hear your ideas and
