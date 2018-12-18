@@ -1,10 +1,10 @@
 # Hugo template for Netlify CMS with Netlify Identity
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
+This is a small business template built with [Amira GitHub Repo](https://github.com/adaapp/web-design-Amira1504.git) and [Netlify CMS](https://hopeful-perlman-22d30a.netlify.com/admin), designed and developed by [Prospex](https://hopeful-perlman-22d30a.netlify.com)
 
 ## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+Use our deploy button to get your own copy of the repository.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
