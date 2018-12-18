@@ -2,6 +2,8 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
+<section id="donate-text-and-images">
+
 <div class="mw7 center ph3 pt4">
 
   {{ range $index, $element := .Params.values }}
@@ -14,4 +16,5 @@
 
 </div>
 
+</section>
 {{ end }}
