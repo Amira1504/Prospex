@@ -1,61 +1,55 @@
-<div class="donate-widget">
-    <a href="values" title="Donate to Prospex now">💛 Donate Now</a>
-  </div>
+<section id="donate-widget" class="donate-widget">
+    <a href="https://localgiving.org/charity/prospex/"target="_blank" title="Donate to Prospex now">💛 Donate Now</a>
+  </section>
 
 <footer class="bg-black ph3 pv4 white">
 
-	<div class="mw7 center pt3">
+<div class="mw7 center pt3">
 
+<section id="newsletter-subscribe">
 		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
+			<img src="/img/prospex.png" alt="Prospex logo" class="db w4 center mb4 br0">
 			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
+			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about what we're doing.</p>
 
 			{{ partial "newsletter-form" . }}
 
 		</div>
+    </section>
 
 		<div class="flex-ns justify-between">
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+			<section id="footer-left">
+				<h3 class="f4 b lh-title mb1 primary">Prospex</h3>
 				<ul class="mb3">
 					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
+					<li><a href="/programmes" class="link">Programmes</a></li>
+					<li><a href="/donate" class="link">Donate</a></li>
+					<li><a href="/blog" class="link">Blog</a></li>
 					<li><a href="/contact" class="link">Contact</a></li>
 				</ul>
-			</div>
+			</section>
 
-			<div>
+
+			<section id="find-out-more">
 				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
 				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
 					<li><a href="/contact" class="link">Schedule and appointment</a></li>
 				</ul>
-			</div>
+			</section>
 
-			<div>
+			<section id="social-media">
 				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+					{{ partial "social-icon" (dict "link" "https://www.facebook.com/prospex.charity/" "svg" "icons-facebook") }}
+					{{ partial "social-icon" (dict "link" "https://twitter.com/prospextweets?lang=en" "svg" "icons-twitter") }}
+					{{ partial "social-icon" (dict "link" "https://www.instagram.com/prospexcharity/" "svg" "icons-instagram") }}
 				</ul>
-			</div>
-
-		</div>
-	</div>
+        </section>
 
 </footer>
 
 {{ partial "svg" . }}
 
 <script src="/app.js"></script>
-
-</body>
-
-</html>

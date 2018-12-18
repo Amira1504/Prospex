@@ -3,12 +3,13 @@ title: "Contact"
 logo: "/img/prospex.png"
 contact_entries:
   - heading: Location
-    text: "The Underground Youth Centre, Piper Cl, London N7 8TQ"
+    text: "The Underground Youth Centre,
+     Piper Cl, London N7 8TQ"
   - heading: Working hours
-    text: "Mon, Tues & Thurs: 9AM – 7PM.
-  Wednesday: 9AM – 5:30PM.                 Friday: 9AM – 7:30PM.
-  We’re closed on Saturdays and Sundays."
-
+    text: "Mon, Tues & Thurs: 9AM – 7PM."
+    text2: "Wednesday: 9AM – 5:30PM."
+    text3: "Friday: 9AM – 7:30PM."
+    text4: "We’re closed on Saturdays and Sundays."
 
 ---
 

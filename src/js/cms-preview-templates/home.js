@@ -29,14 +29,14 @@ export default class PostPreview extends React.Component {
             <p className="mb4 mw6">{entry.getIn(["data", "intro", "text"])}</p>
 
             <div className="flex-ns mhn2-ns mb3">
-              {(entry.getIn(["data", "products"]) || []).map((product, i) => <div className="ph2-ns w-50-ns" key={i}>
-                <img src={getAsset(product.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
-                <p>{product.get("text")}</p>
+              {(entry.getIn(["data", "programmes"]) || []).map((programmes, i) => <div className="ph2-ns w-50-ns" key={i}>
+                <img src={getAsset(programmes.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+                <p>{programmes.get("text")}</p>
               </div>)}
             </div>
 
             <div className="tc">
-              <a href="#" className="btn raise">See all products</a>
+              <a href="#" className="btn raise">See all programmes</a>
             </div>
           </div>
         </div>
@@ -46,13 +46,13 @@ export default class PostPreview extends React.Component {
 
             <div className="flex-l mhn2-l">
               <div className="w-40-l ph2-l">
-                <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "values", "heading"])}</h2>
+                <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "blog", "heading"])}</h2>
 
-                <p>{entry.getIn(["data", "values", "text"])}</p>
+                <p>{entry.getIn(["data", "blog", "text"])}</p>
               </div>
 
               <div className="w-60-l ph2-l">
-                <img src="/img/home-about-section.jpg" alt="" className="mb3"/>
+                <img src="/img/helping-hand.jpg" alt="" className="mb3"/>
               </div>
             </div>
 

@@ -1,24 +1,39 @@
 {{ define "main" }}
 
-<section class="ph3 bg-off-white">
-	<section class="center mw6 pv3">
+<section Id="contact-page" class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
 
 		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
 
 		{{ .Content }}
 
-		<section class="flex-ns mb3">
+		<div class="flex-ns mb3">
 	        	{{ range .Params.contact_entries }}
-				<section>
+				<div>
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
 					<p>{{ .text }}</p>
-				</section>
+
+					{{ if eq .heading "Location" }}
+
+					<div class="mapouter"><div class="gmap_canvas"><iframe width="363" height="259" id="gmap_canvas" src="https://maps.google.com/maps?q=The%20Underground%20Youth%20Centre%2C%20Piper%20Cl%2C%20London%20N7%208TQ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div><style>.mapouter{text-align:right;height:259px;width:363px;}.gmap_canvas {overflow:hidden;background:none!important;height:259px;width:363px;}</style></div>
+
+					{{ end }}
+
+					{{ if eq .heading "Working hours" }}
+
+					<p>{{ .text2 }}</p>
+					<p>{{ .text3 }}</p>
+					<p>{{ .text4 }}</p>
+
+						{{ end }}
+
+				</div>
 			{{ end }}
-		</section>
+		</div>
 
 		{{ partial "contact-form" . }}
 
-	</section>
+	</div>
 </section>
 
 {{ end }}

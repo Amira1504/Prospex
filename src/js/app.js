@@ -8,3 +8,15 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+var navToggleButton = document.querySelector('.nav-toggle');
+var navBox = document.querySelector('.nav-box');
+var body = document.querySelector('body');
+
+navToggleButton.addEventListener('click', toggleClass);
+
+function toggleClass(){
+  navBox.classList.toggle('open');
+  navBox.classList.toggle('closed');
+  body.classList.toggle('nav-open');
+}
